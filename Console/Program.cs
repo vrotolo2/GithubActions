@@ -85,6 +85,6 @@ public class Program
 
 	public static double Power(string x, string y)
 	{
-		return double.Parse(x) ** double.Parse(y);
+		return Math.pow(double.Parse(x), double.Parse(y));
 	}
 }
